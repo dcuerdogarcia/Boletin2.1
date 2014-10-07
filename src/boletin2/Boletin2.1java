@@ -1,0 +1,17 @@
+//area del triángulo
+package boletin2.1;
+
+public class Boletin2.1 {
+    
+    public static void main(String[] args) {
+        
+/*        float base=3.0f, altura=5f, area;
+        area = base*altura/2; */
+        
+        float base=3.0f, altura=5f;
+        int area;
+        area = (int) (base*altura/2); //tenemos que hacer un cash
+        System.out.println("area = " + area);
+        System.out.println("el area del triangulo sera = " + base*altura);
+    }
+}
